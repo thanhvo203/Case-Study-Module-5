@@ -158,10 +158,13 @@ $(document).ready(function(){
                     <tr>
                         <th>#</th>
                         <th>Name <i class="fa fa-sort"></i></th>
+                        <th>Birthday</th>
+                        <th>Gender <i class="fa fa-sort"></i></th>
+                        <th>Identity Card</th>
+                        <th>Phone Number <i class="fa fa-sort"></i></th>
+                        <th>Email</th>
+                        <th>Type Customer</th>
                         <th>Address</th>
-                        <th>City <i class="fa fa-sort"></i></th>
-                        <th>Pin Code</th>
-                        <th>Country <i class="fa fa-sort"></i></th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -172,6 +175,9 @@ $(document).ready(function(){
                         <td>89 Chiaroscuro Rd.</td>
                         <td>Portland</td>
                         <td>97219</td>
+                        <td>USA</td>
+                        <td>USA</td>
+                        <td>USA</td>
                         <td>USA</td>
                         <td>
                             <a href="#" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
@@ -186,6 +192,9 @@ $(document).ready(function(){
                         <td>Berlin</td>
                         <td>12209</td>
                         <td>Germany</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
+                        <td>Germany</td>
                         <td>
                             <a href="#" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
                             <a href="#" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
@@ -198,6 +207,9 @@ $(document).ready(function(){
                         <td>C/ Araquil, 67</td>
                         <td>Madrid</td>
                         <td>28023</td>
+                        <td>Spain</td>
+                        <td>Spain</td>
+                        <td>Spain</td>
                         <td>Spain</td>
                         <td>
                             <a href="#" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
@@ -212,6 +224,9 @@ $(document).ready(function(){
                         <td>Paris</td>
                         <td>75016</td>
                         <td>France</td>
+                        <td>France</td>
+                        <td>France</td>
+                        <td>France</td>
                         <td>
                             <a href="#" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
                             <a href="#" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
@@ -225,10 +240,13 @@ $(document).ready(function(){
                         <td>Turin</td>
                         <td>10100</td>
                         <td>Italy</td>
+                        <td>Italy</td>
+                        <td>Italy</td>
+                        <td>Italy</td>
                         <td>
                             <a href="#" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
                             <a href="#" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                            <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                            <a href="#deleteCustomerModal" class="delete"  title="Delete" data-toggle="modal"><i class="material-icons">&#xE872;</i></a>
                         </td>
                     </tr>        
                 </tbody>
@@ -247,6 +265,28 @@ $(document).ready(function(){
             </div>
         </div>
     </div>  
-</div>   
+</div>
+<!--MODAL DELETE-->
+<div id="deleteCustomerModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form>
+                <div class="modal-header" style="background: red; color: white">
+                    <h4 class="modal-title">Delete Customer</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Are you sure you want to delete this Customer?</h4>
+                    <p class="text-warning"><h4 style="color: red">This action cannot be undone.</h4></p>
+                </div>
+                <div class="modal-footer">
+                    <input style="background: #82817f" type="button" class="btn btn-default" data-dismiss="modal"
+                           value="Cancel">
+                    <input style="background: #cda45e " type="submit" class="btn btn-danger" value="Delete">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>
