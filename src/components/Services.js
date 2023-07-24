@@ -3,7 +3,21 @@ import React from "react";
 function Services() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+                 <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet" />
+      <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+      <link rel="stylesheet" href="css/animate.css" />
+      <link rel="stylesheet" href="css/owl.carousel.min.css" />
+      <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+      <link rel="stylesheet" href="css/magnific-popup.css" />
+      <link rel="stylesheet" href="css/aos.css" />
+      <link rel="stylesheet" href="css/ionicons.min.css" />
+      <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+      <link rel="stylesheet" href="css/jquery.timepicker.css" />
+      <link rel="stylesheet" href="css/flaticon.css" />
+      <link rel="stylesheet" href="css/icomoon.css" />
+      <link rel="stylesheet" href="css/style.css" />
+            <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light scrolled awake" id="ftco-navbar">
                 <div className="container">
                     <a className="navbar-brand" href="home.html">Furama</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -429,15 +443,14 @@ function Services() {
                     </div>
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <p>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
+                            <p>
                                 Copyright ©
                                 All rights reserved | This template is made with <i className="icon-heart color-danger" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                                {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
+                            </p>
                         </div>
                     </div>
                 </div>
             </footer>
-            {/* loader */}
             <div id="ftco-loader" className="show fullscreen">
                 <svg className="circular" width="48px" height="48px">
                     <circle className="path-bg" cx={24} cy={24} r={22} fill="none" strokeWidth={4} stroke="#eeeeee" />
