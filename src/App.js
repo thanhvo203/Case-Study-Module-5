@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import Home from './components/Home';
-import Header from './components/commons/Header';
-import Footer from './components/commons/Footer';
-import Services from './components/Services';
+import UpdateService from './components/commons/service/UpdateService';
+import Services from './components/commons/service/Services';
 
 
 
@@ -11,7 +9,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-      <Footer />
+      <Services />
+
       </div>
     );
   }

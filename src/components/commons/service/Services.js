@@ -227,7 +227,7 @@ function Services() {
                                         <div className="form-group">
                                             <div className="select-wrap one-third">
                                                 <div className="icon"><span className="ion-ios-arrow-down" /></div>
-                                                <select name id className="form-control">
+                                                <select className="form-control">
                                                     <option value>Room Type</option>
                                                     <option value>Suite</option>
                                                     <option value>Family Room</option>
@@ -241,7 +241,7 @@ function Services() {
                                         <div className="form-group">
                                             <div className="select-wrap one-third">
                                                 <div className="icon"><span className="ion-ios-arrow-down" /></div>
-                                                <select name id className="form-control">
+                                                <select className="form-control">
                                                     <option value>0 Adult</option>
                                                     <option value>1 Adult</option>
                                                     <option value>2 Adult</option>
@@ -255,7 +255,7 @@ function Services() {
                                         <div className="form-group">
                                             <div className="select-wrap one-third">
                                                 <div className="icon"><span className="ion-ios-arrow-down" /></div>
-                                                <select name id className="form-control">
+                                                <select className="form-control">
                                                     <option value>0 Children</option>
                                                     <option value>1 Children</option>
                                                     <option value>2 Children</option>
@@ -451,12 +451,6 @@ function Services() {
                     </div>
                 </div>
             </footer>
-            <div id="ftco-loader" className="show fullscreen">
-                <svg className="circular" width="48px" height="48px">
-                    <circle className="path-bg" cx={24} cy={24} r={22} fill="none" strokeWidth={4} stroke="#eeeeee" />
-                    <circle className="path" cx={24} cy={24} r={22} fill="none" strokeWidth={4} strokeMiterlimit={10} stroke="#F96D00" />
-                </svg>
-            </div>
         </div>
 
     )
