@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -27,10 +28,10 @@ function Header() {
                     </button>
                     <div className="collapse navbar-collapse" id="ftco-nav">
                         <ul className="navbar-nav ml-auto">
-                            <li className="nav-item"><a href="home.html" className="nav-link">Home</a></li>
-                            <li className="nav-item active"><a href="service.html" className="nav-link">Rooms</a></li>
-                            <li className="nav-item"><a href="restaurant.html" className="nav-link">Restaurant</a></li>
-                            <li className="nav-item"><a href="about.html" className="nav-link">About</a></li>
+                            <li className="nav-item"><Link to={"/"} className="nav-link">Home</Link></li>
+                            <li className="nav-item active"><Link to={"/services"} className="nav-link">Rooms</Link></li>
+                            <li className="nav-item"><Link to={"/customers"} className="nav-link">Customer</Link></li>
+                            <li className="nav-item"><Link to={"/contracts"} className="nav-link">Contract</Link></li>
                             <li className="nav-item"><a href="blog.html" className="nav-link">Blog</a></li>
                             <li className="nav-item"><a href="contact.html" className="nav-link">Contact</a></li>
                         </ul>
@@ -42,11 +43,11 @@ function Header() {
                 <div className="overlay" />
                 <div className="container">
                     <div className="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
-                        <div className="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
+                        <div className="col-md-9  text-center d-flex align-items-end justify-content-center">
                             <div className="text">
                                 <p className="breadcrumbs mb-2"><span className="mr-2"><a href="home.html">Home</a></span>
                                     <span>About</span></p>
-                                <h1 className="mb-4 bread">Rooms</h1>
+                                
                             </div>
                         </div>
                     </div>

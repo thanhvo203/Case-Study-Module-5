@@ -569,7 +569,7 @@ BUTTON
 		outline: none;
 	}
 	&.btn-primary {
-		background: lighten(var(--primary),0);
+		/* background: lighten(var(--primary),0); */
 		border: 1px solid lighten(var(--primary),0);
 		color: white;
 		&:hover {

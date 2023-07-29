@@ -1,0 +1,518 @@
+{
+  "typeCustomer": [
+    {
+      "id": 1,
+      "type": "Member"
+    },
+    {
+      "id": 2,
+      "type": "Silver"
+    },
+    {
+      "id": 3,
+      "type": "Gold"
+    },
+    {
+      "id": 4,
+      "type": "Platinium"
+    },
+    {
+      "id": 5,
+      "type": "Diamond"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Pham Thi Y",
+      "date_of_birth": "04/04/1992",
+      "gender": "Female",
+      "id_card": "369852147",
+      "phone_number": "0369852147",
+      "email": "phamthid@gmail.com",
+      "typeCustomer": {
+        "id": 4,
+        "type": "Platinium"
+      },
+      "address": "No.4 Street D, District 4, Ho Chi Minh City"
+    },
+    {
+      "id": 2,
+      "name": "Pham Thi T",
+      "date_of_birth": "04/04/1992",
+      "gender": "Female",
+      "id_card": "369852147",
+      "phone_number": "0369852147",
+      "email": "phamthid@gmail.com",
+      "typeCustomer": {
+        "id": 4,
+        "type": "Platinium"
+      },
+      "address": "No.4 Street D, District 4, Ho Chi Minh City"
+    },
+    {
+      "id": 3,
+      "name": "Pham Thi W",
+      "date_of_birth": "04/04/1992",
+      "gender": "Female",
+      "id_card": "369852147",
+      "phone_number": "0369852147",
+      "email": "phamthid@gmail.com",
+      "typeCustomer": {
+        "id": 4,
+        "type": "Platinium"
+      },
+      "address": "No.4 Street D, District 4, Ho Chi Minh City"
+    },
+    {
+      "id": 4,
+      "name": "Pham Thi Q",
+      "date_of_birth": "04/04/1992",
+      "gender": "Female",
+      "id_card": "369852147",
+      "phone_number": "0369852147",
+      "email": "phamthid@gmail.com",
+      "typeCustomer": {
+        "id": 4,
+        "type": "Platinium"
+      },
+      "address": "No.4 Street D, District 4, Ho Chi Minh City"
+    },
+    {
+      "id": 5,
+      "name": "Pham Thi S",
+      "date_of_birth": "04/04/1992",
+      "gender": "Female",
+      "id_card": "369852147",
+      "phone_number": "0369852147",
+      "email": "phamthid@gmail.com",
+      "typeCustomer": {
+        "id": 4,
+        "type": "Platinium"
+      },
+      "address": "No.4 Street D, District 4, Ho Chi Minh City"
+    },
+    {
+      "id": 6,
+      "name": "Pham Thi E",
+      "date_of_birth": "04/04/1992",
+      "gender": "Female",
+      "id_card": "369852147",
+      "phone_number": "0369852147",
+      "email": "phamthid@gmail.com",
+      "typeCustomer": {
+        "id": 4,
+        "type": "Platinium"
+      },
+      "address": "No.4 Street D, District 4, Ho Chi Minh City"
+    },
+    {
+      "id": 7,
+      "name": "Nguyen Thi F",
+      "date_of_birth": "06/06/1991",
+      "gender": "Female",
+      "id_card": "147258369",
+      "phone_number": "0147258369",
+      "email": "nguyenthif@hotmail.com",
+      "typeCustomer": {
+        "id": 1,
+        "type": "Member"
+      },
+      "address": "No.6 Street F, District 6, Ho Chi Minh City"
+    },
+    {
+      "id": 8,
+      "name": "Tran Van G",
+      "date_of_birth": "07/07/1987",
+      "gender": "Male",
+      "id_card": "963852741",
+      "phone_number": "0963852741",
+      "email": "tranvang@gmail.com",
+      "typeCustomer": {
+        "id": 3,
+        "type": "Gold"
+      },
+      "address": "No.7 Street G, District 7, Ho Chi Minh City"
+    },
+    {
+      "name": "dddadad",
+      "date_of_birth": "2023-07-02",
+      "gender": "Male",
+      "id_card": "31313",
+      "phone_number": "123213",
+      "email": "vohaithanh21@gmail.com",
+      "typeCustomer": {
+        "id": 3,
+        "type": "Gold"
+      },
+      "address": "adadadad",
+      "id": 9
+    }
+  ],
+  "rentalType": [
+    {
+      "id": 1,
+      "type": "Day"
+    },
+    {
+      "id": 2,
+      "type": "Month"
+    },
+    {
+      "id": 3,
+      "type": "Year"
+    },
+    {
+      "id": 4,
+      "type": "Hours"
+    }
+  ],
+  "typeRoom": [
+    {
+      "id": 1,
+      "type": "Villa"
+    },
+    {
+      "id": 2,
+      "type": "House"
+    },
+    {
+      "id": 3,
+      "type": "Room"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "service": "BEACH HOUSE",
+      "usable_area": "50m²",
+      "costs": "1000",
+      "max_people": "8",
+      "rentalType": {
+        "id": 1,
+        "type": "Day"
+      },
+      "standard": "Deluxe",
+      "description": "A luxury villa with 4 bedrooms and private pool",
+      "typeRoom": {
+        "id": 2,
+        "type": "House"
+      },
+      "pool": "No",
+      "floor": "4",
+      "free": "No"
+    },
+    {
+      "id": 2,
+      "service": "GARDEN HOUSE",
+      "usable_area": "40m²",
+      "costs": "800",
+      "max_people": "6",
+      "rentalType": {
+        "id": 1,
+        "type": "Day"
+      },
+      "standard": "Deluxe",
+      "description": "A deluxe villa with 3 bedrooms and private garden",
+      "typeRoom": {
+        "id": 2,
+        "type": "House"
+      },
+      "pool": "No",
+      "floor": "3",
+      "free": "No"
+    },
+    {
+      "id": 3,
+      "service": "LAKEFRONT HOUSE",
+      "usable_area": "60m²",
+      "costs": "5000",
+      "max_people": "2",
+      "rentalType": {
+        "id": 1,
+        "type": "Day"
+      },
+      "standard": "Superior",
+      "description": "A standard apartment with 1 bedroom and balcony",
+      "typeRoom": {
+        "id": 2,
+        "type": "House"
+      },
+      "pool": "No",
+      "floor": "3",
+      "free": "No"
+    },
+    {
+      "id": 4,
+      "service": "POOL HOUSE",
+      "usable_area": "70m²",
+      "costs": "700",
+      "max_people": "4",
+      "rentalType": {
+        "id": 1,
+        "type": "Day"
+      },
+      "standard": "Superior",
+      "description": "A superior apartment with 2 bedrooms and sea view",
+      "typeRoom": {
+        "id": 2,
+        "type": "House"
+      },
+      "pool": "No",
+      "floor": "4",
+      "free": "No"
+    },
+    {
+      "id": 5,
+      "service": "MOUTAIN HOUSE",
+      "usable_area": "20m²",
+      "costs": "200",
+      "max_people": "1",
+      "rentalType": {
+        "id": 1,
+        "type": "Day"
+      },
+      "standard": "Economy",
+      "description": "An economy room with single bed",
+      "typeRoom": {
+        "id": 2,
+        "type": "House"
+      },
+      "pool": "No",
+      "floor": "5",
+      "free": "No"
+    },
+    {
+      "id": 5,
+      "service": "LAKEFRONT HOUSE",
+      "usable_area": "25m²",
+      "costs": "250",
+      "max_people": "2",
+      "rentalType": {
+        "id": 1,
+        "type": "Day"
+      },
+      "standard": "standard",
+      "description": "A standard room with double bed",
+      "typeRoom": {
+        "id": 2,
+        "type": "House"
+      },
+      "pool": "No",
+      "floor": "6",
+      "free": "No"
+    },
+    {
+      "id": 6,
+      "service": "DELUXE ROOM",
+      "usable_area": "30m²",
+      "costs": "300",
+      "max_people": "2",
+      "rentalType": {
+        "id": 1,
+        "type": "Day"
+      },
+      "standard": "No",
+      "description": "No",
+      "pool": "No",
+      "floor": "No",
+      "typeRoom": {
+        "id": 3,
+        "type": "Room"
+      },
+      "free": "Breakfast"
+    },
+    {
+      "id": 7,
+      "service": "OCEAN VIEW ROOM",
+      "usable_area": "35m²",
+      "costs": "350",
+      "max_people": "2",
+      "rentalType": {
+        "id": 1,
+        "type": "Day"
+      },
+      "standard": "No",
+      "description": "No",
+      "pool": "No",
+      "floor": "No",
+      "typeRoom": {
+        "id": 3,
+        "type": "Room"
+      },
+      "free": "Buffer"
+    },
+    {
+      "id": 8,
+      "service": "FAMILY ROOM",
+      "usable_area": "30m²",
+      "costs": "450",
+      "max_people": "2",
+      "rentalType": {
+        "id": 1,
+        "type": "Day"
+      },
+      "standard": "No",
+      "description": "No",
+      "pool": "No",
+      "floor": "No",
+      "typeRoom": {
+        "id": 3,
+        "type": "Room"
+      },
+      "free": "Dinner"
+    },
+    {
+      "id": 9,
+      "service": "GADERN VILLA",
+      "usable_area": "90m²",
+      "costs": "450",
+      "max_people": "5",
+      "rentalType": {
+        "id": 2,
+        "type": "Month"
+      },
+      "standard": "Luxury",
+      "typeRoom": {
+        "id": 1,
+        "type": "Villa"
+      },
+      "description": "A luxury room with double bed, sea view, balcony and jacuzzi",
+      "pool": "No",
+      "floor": "4",
+      "free": "No"
+    },
+    {
+      "id": 10,
+      "service": "OCEANFRONT VILLA",
+      "usable_area": "80m²",
+      "costs": "45000",
+      "max_people": "6",
+      "rentalType": {
+        "id": 2,
+        "type": "Month"
+      },
+      "standard": "Economy",
+      "typeRoom": {
+        "id": 1,
+        "type": "Villa"
+      },
+      "description": "A luxury room with double bed, sea view, balcony and jacuzzi",
+      "pool": "10m²",
+      "floor": "5",
+      "free": "No"
+    },
+    {
+      "id": 11,
+      "service": "HILLTOP VILLA",
+      "usable_area": "100m²",
+      "costs": "450",
+      "max_people": "7",
+      "rentalType": {
+        "id": 2,
+        "type": "Month"
+      },
+      "standard": "Economy",
+      "typeRoom": {
+        "id": 1,
+        "type": "Villa"
+      },
+      "description": "A luxury room with double bed, sea view, balcony and jacuzzi",
+      "pool": "20m²",
+      "floor": "3",
+      "free": "No"
+    },
+    {
+      "service": "addadad",
+      "usable_area": "1313",
+      "costs": 13131,
+      "max_people": 3111,
+      "rentalType": {
+        "id": 3,
+        "type": "Year"
+      },
+      "standard": "31313",
+      "description": "1313",
+      "typeRoom": {
+        "id": 2,
+        "type": "House"
+      },
+      "pool": "131313",
+      "floor": 1313,
+      "free": 1313,
+      "id": 12
+    }
+  ],
+  "contracts": [
+    {
+      "contract_id": 1,
+      "check_in": "2023-08-01",
+      "check_out": "2023-08-05",
+      "deposit": 500,
+      "total": 2000
+    },
+    {
+      "contract_id": 2,
+      "check_in": "2023-09-10",
+      "check_out": "2023-09-15",
+      "deposit": 800,
+      "total": 3200
+    },
+    {
+      "contract_id": 3,
+      "check_in": "2023-10-01",
+      "check_out": "2023-10-07",
+      "deposit": 600,
+      "total": 2400
+    },
+    {
+      "contract_id": 4,
+      "check_in": "2023-11-15",
+      "check_out": "2023-11-20",
+      "deposit": 1000,
+      "total": 4000
+    },
+    {
+      "contract_id": 5,
+      "check_in": "2024-01-02",
+      "check_out": "2024-01-05",
+      "deposit": 300,
+      "total": 1200
+    },
+    {
+      "contract_id": 6,
+      "check_in": "2024-02-14",
+      "check_out": "2024-02-20",
+      "deposit": 800,
+      "total": 3200
+    },
+    {
+      "contract_id": 7,
+      "check_in": "2024-03-05",
+      "check_out": "2024-03-10",
+      "deposit": 400,
+      "total": 1600
+    },
+    {
+      "contract_id":8,
+      "check_in": "2024-04-20",
+      "check_out": "2024-04-25",
+      "deposit": 900,
+      "total": 3600
+    },
+    {
+      "contract_id": 9,
+      "check_in": "2024-05-15",
+      "check_out": "2024-05-20",
+      "deposit": 600,
+      "total": 2400
+    },
+    {
+      "contract_id": 10,
+      "check_in": "2024-06-10",
+      "check_out": "2024-06-15",
+      "deposit": 700,
+      "total": 2800
+    }
+  ]
+}
